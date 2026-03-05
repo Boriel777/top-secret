@@ -1,0 +1,38 @@
+/* Button Styles */
+
+html {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    max-width: 100dvw;
+}
+
+#toggle_button {
+    position:absolute;
+    top: 180px;
+    left: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border:0px;
+    color: #fff;
+    background-color: #4f7ed6;
+    cursor: pointer;
+    transition: all 3s ease-in-out;
+}
+
+#toggle_button:hover {
+    background-color: #1143af;
+    transform: scale(1.05);
+}
+
+.d_none {
+    display: none;
+}
+
+#ich_verschwinde {
+    font-size: 50px;
+    color: #097909;
+}
